@@ -43,6 +43,20 @@ column-gap: 30px;
 .menu-list-item.active{
     font-weight: bold;
 }
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.toggle{
+    color: goldenrod;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
 .sidebar{background-color: black;
 color: white;
 height: 100%;
