@@ -11,7 +11,7 @@ body{height: 100vh;
 }
 
 /*! Base Css end */
-
+/*! NAVBAR Css start */
 .navbar{
     background-color: black;
     height: 60px;
@@ -49,16 +49,60 @@ column-gap: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+}
 .toggle{
+    width: 40px;
+    background-color: white;
+    height: 20px;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.toggle-icon{
     color: goldenrod;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
 }
 .profile-container{
     display: flex;
     align-items: center;
     column-gap: 20px;
 }
+/*! NAVBAR Css END */
+
+/*! SIDEBAR Css start */
+
 .sidebar{background-color: black;
 color: white;
 height: 100%;
 width: 50px;
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+row-gap: 40px;
+align-items: center;
+
 }
+
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+}
+/*! NAVBAR Css END */
