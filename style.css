@@ -7,13 +7,14 @@
 
 body{
     font-family: 'Electrolize', sans-serif;
+    height: 200vh;
     
 }
 
 /*! Base Css end */
 /*! NAVBAR Css start */
 .navbar{
-    background-color: black;
+    background-color: #1E3E62;
     height: 60px;
     color: white;
     display: flex;
@@ -27,7 +28,7 @@ body{
 .logo{
    
     font-size: 30px;
-    color: rgb(255, 70, 70)
+    color: #FFF4B7
     
 
 }
@@ -88,7 +89,7 @@ column-gap: 30px;
 
 /*! SIDEBAR Css start */
 
-.sidebar{background-color: black;
+.sidebar{background-color: #1E3E62;
 color: white;
 height: 100%;
 width: 50px;
